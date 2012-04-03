@@ -1,0 +1,6 @@
+[submodule "yaml-lab"]
+	path = yaml-lab
+	url = git@github.com:markmcspadden/yaml-lab.git
+[submodule "c_in_ruby_lab"]
+	path = c_in_ruby_lab
+	url = git@github.com:markmcspadden/c_in_ruby_lab.git
