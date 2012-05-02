@@ -3,7 +3,7 @@ require 'active_support/core_ext/class/attribute'
 
 class Api
   class_attribute :headers
-  self.headers = []
+  self.headers = ["API-KEY"]
 
   def self.request
     puts "Request from #{name} has headers: #{headers.join(", ")}"
@@ -17,11 +17,6 @@ class FacebookApi < Api
 end
 
 Api.request
-
-Api.headers << "API-KEY"
-Api.request
-
-
 TwitterApi.request
 
 TwitterApi.headers << "OUATH-TOKEN"

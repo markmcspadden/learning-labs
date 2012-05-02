@@ -33,7 +33,6 @@ Api.request
 TwitterApi.request
 FacebookApi.request
 
-
 puts "Does Api have a timeout? " + (Api.timeout? ? "yes" : "no")
 puts "Does TwitterApi have a timeout? " + (TwitterApi.timeout? ? "yes" : "no")
 puts "Does FacebookApi have a timeout? " + (FacebookApi.timeout? ? "yes" : "no")
